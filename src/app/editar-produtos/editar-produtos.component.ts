@@ -12,6 +12,11 @@ import { environment } from 'src/environments/environment';
 export class EditarProdutosComponent implements OnInit {
   mensagem: string = '';
 
+
+
+
+
+
   constructor(
     private httpClient: HttpClient,
     private activatedRoute: ActivatedRoute
